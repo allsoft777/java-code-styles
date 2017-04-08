@@ -25,6 +25,10 @@ do
     # Install options ("Exclude from Import and Completion")
     mkdir -p $i/options
     cp -frv "$CONFIGS/options"/* $i/options
+
+    # Install fileTemplates
+    mkdir -p $i/fileTemplates
+    cp -frv "$CONFIGS/fileTemplates"/* $i/fileTemplates
   fi
 done
 
